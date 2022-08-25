@@ -104,6 +104,8 @@ function addProductToCart(product) {
   lastRemoveBtn.addEventListener('click', removeProduct);
 }
 
+
+  // aqui talvez eu conseguisse fazer mais curto, mas já são 01:13 da manhã e eu to nervosa, vai ficar assim mesmo pq deu certo kk
 function addNewProductRow(product) {
 
   const tbody = document.querySelector('#cart tbody');
@@ -208,3 +210,5 @@ window.addEventListener('load', () => {
   const createProductBtn = document.getElementById('create');
   createProductBtn.addEventListener('click', createProduct);
 });
+
+//não pense que sou inteligente, tive que ver muitos tutoriais
